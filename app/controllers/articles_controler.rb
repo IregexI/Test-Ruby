@@ -35,10 +35,6 @@ class ArticlesController < ApplicationController
     end
   end
   
-  def import
-    binding.b
-  end
-
   def destroy
     @article = Article.find(params[:id])
     @article.destroy
@@ -47,7 +43,7 @@ class ArticlesController < ApplicationController
   end
   
   def import
-    
+    redirect_to root_path, notice: 'dwdwd'
   end
 
   private
