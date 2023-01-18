@@ -34,10 +34,6 @@ class ArticlesController < ApplicationController
       render :edit, stat: :unprocessable_entity
     end
   end
-  
-  def import
-    binding.b
-  end
 
   def destroy
     @article = Article.find(params[:id])
