@@ -1,2 +1,5 @@
 /tmp/
 /logs/
+/log/
+/log/.keep
+/log/development.log
